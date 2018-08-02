@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fondo"
+    tools:context="com.example.andres.block04.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/play"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pause"
+        android:layout_below="@id/play"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pause"
+        />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pause"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300px"
+        android:id="@+id/loop"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loop"
+        android:layout_alignBaseline="@+id/loop"
+        android:layout_alignBottom="@+id/loop"
+        android:layout_toStartOf="@+id/pause"
+        android:textSize="45px"
+        android:id="@+id/textView" />
+
+    c
+
+    <SeekBar
+        android:id="@+id/volumenID"
+        style="@style/Widget.AppCompat.SeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/pause"
+        android:layout_below="@+id/pause"
+        android:layout_marginTop="54dp"
+        android:elevation="0dp"
+        android:max="100"
+        android:min="0"
+        android:rotation="270"
+        android:verticalScrollbarPosition="right"
+        />
+
+    <TextView
+        android:id="@+id/cuanVol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loop"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="35dp"
+        android:layout_toEndOf="@+id/pause"
+        android:text="00"
+        android:textSize="25sp" />
+</RelativeLayout>

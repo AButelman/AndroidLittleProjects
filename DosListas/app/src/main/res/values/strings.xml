@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Dos Listas</string>
+    <string name="dog">Dog</string>
+    <string name="cat">Cat</string>
+    <string name="pig">Pig</string>
+    <string name="horse">Horse</string>
+    <string name="rooster">Rooster</string>
+    <string name="chicken">Chicken</string>
+    <string name="eagle">Eagle</string>
+    <string name="squirrel">Squirrel</string>
+    <string name="frog">Frog</string>
+    <string name="whale">Whale</string>
+    <string name="spider">Spider</string>
+    <string name="ant">Ant</string>
+    <string name="parrot">Parrot</string>
+    <string name="dinosaur">Dinosaur</string>
+    <string name="salmon">Salmon</string>
+    <string name="bird">Bird</string>
+    <string-array name="animals">
+        <item>@string/dog</item>
+        <item>@string/cat</item>
+        <item>@string/pig</item>
+        <item>@string/horse</item>
+        <item>@string/rooster</item>
+        <item>@string/chicken</item>
+        <item>@string/eagle</item>
+        <item>@string/squirrel</item>
+        <item>@string/frog</item>
+        <item>@string/whale</item>
+        <item>@string/spider</item>
+        <item>@string/ant</item>
+        <item>@string/parrot</item>
+        <item>@string/dinosaur</item>
+        <item>@string/salmon</item>
+        <item>@string/bird</item>
+    </string-array>
+
+    <string name="nombre1">Jorge</string>
+    <string name="nombre2">Carlos</string>
+    <string name="nombre3">Pedro</string>
+    <string name="nombre4">Susana</string>
+    <string name="nombre5">Sergio</string>
+    <string name="nombre6">Andrea</string>
+    <string name="nombre7">Victor</string>
+    <string name="nombre8">Marta</string>
+    <string name="nombre9">Eugenia</string>
+    <string name="nombre10">Silvia</string>
+    <string name="nombre11">Silvina</string>
+    <string name="nombre12">Esteban</string>
+    <string-array name="nombres">
+        <item>@string/nombre1</item>
+        <item>@string/nombre2</item>
+        <item>@string/nombre3</item>
+        <item>@string/nombre4</item>
+        <item>@string/nombre5</item>
+        <item>@string/nombre6</item>
+        <item>@string/nombre7</item>
+        <item>@string/nombre8</item>
+        <item>@string/nombre9</item>
+        <item>@string/nombre10</item>
+        <item>@string/nombre11</item>
+        <item>@string/nombre12</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hola">Hello World!!!!</string>
+    <string name="mama">Mamá</string>
+    <string name="papa">Papá</string>
+    <string name="bobe">Bobe</string>
+    <string name="queres">¿A quiénes querés?</string>
+</resources>
